@@ -1,0 +1,141 @@
+.container{
+    display: flex;
+    justify-content: space-between;
+  
+}
+.inscription{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    padding: 120px 60px;
+}
+
+.first{
+    display: flex;
+justify-content: space-between;
+    
+}
+.title{
+    font-size: 40px;
+    font-weight: bold;
+    
+}
+.ins-btn{
+    background: #ef4444;
+    color: white;
+    padding: 6px 12px;
+    cursor: pointer;
+    font-size: 30px;
+    border-radius: 10px;
+}
+
+.seconde{
+    display: flex;
+    flex-direction: column;
+    margin-top: 60px;
+}
+.identifie{
+    font-size: 24px;
+    color: #797480;
+}
+
+.cnct{
+    font-size: 40px;
+    margin-top: 8px;
+    font-weight: bold;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.input-email{
+    margin-top: 16px;
+    width: 85%;
+    height: 80px;
+    background: #e5e7eb;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+}
+.input-password{
+    margin-top: 8px;
+    width: 85%;
+    height: 80px;
+    background: #e5e7eb;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+}
+.oublier{
+    color: #babcc3;
+    font-size: 24px;
+}
+.link-btn{
+  text-decoration: none;
+  text-align: center;
+  margin-top: 12px;
+}
+
+.identifie-btn{
+    color:white ;
+    background:#ef4444 ;
+    width: 90%;
+    margin: auto auto;
+    margin-top: 16px;
+    
+    text-align: center;
+    font-size: 45px;
+    padding: 24px;
+    text-decoration: none;
+    border-radius: 12px;
+
+
+}
+.google-btn{
+   
+}
+.div-google{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    padding: 24px;
+    color:black ;
+    background:#ffffff ;
+    width: 90%;
+    margin: auto auto;
+    margin-top: 16px;
+    
+    text-align: center;
+    font-size: 24px;
+    margin-top: 8px;
+    box-shadow: 1px 2px 3px rgb(182, 182, 182);
+    padding: 24px;
+    text-decoration: none;
+    border-radius: 12px;
+    font-weight: bold;
+
+}
+.google-img{
+    width: 35px;
+    margin-right: 24px;
+    height: 35px;
+}
+.no-account{
+color: #929294;
+}
+.no-account-link{
+text-decoration: none;
+text-align: center;
+margin-top: 8px;
+width: 100%;
+font-size: 18px;
+}
+.red-ins{
+    color: #ef4444;
+}
+
+.img-ins{
+    background: #dc2626;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
